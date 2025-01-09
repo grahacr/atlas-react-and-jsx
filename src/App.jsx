@@ -1,5 +1,7 @@
-function App() {
-  return <div className="app">Hello Atlas</div>;
-}
+import Header from "./assets/components/Header";
 
-export default App;
+export default function App() {
+  return <div className="app">
+    <Header />
+  </div>;
+}
