@@ -13,11 +13,11 @@ export default function Greeting() {
             greetingMsg = "Good Morning!";
             greetingImg = dayPic;
             break;
-        case (currentTime >= 12 && currentTime < 5):
+        case (currentTime >= 12 && currentTime < 17):
             greetingMsg = "Good Afternoon!";
             greetingImg = dayPic;
             break;
-        case (currentTime >= 5 && currentTime < 9):
+        case (currentTime >= 17 && currentTime < 21):
             greetingMsg = "Good Evening!";
             greetingImg = nightPic;
             break;
