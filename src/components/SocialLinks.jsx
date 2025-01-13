@@ -1,7 +1,7 @@
 // Social Links component
 import React from "react";
-import linkedIn from "../linkedin.svg";
-import github from "../github.svg";
+import linkedIn from "../assets/linkedin.svg";
+import github from "../assets/github.svg";
 
 function SocialLinks() { 
     return (

@@ -1,9 +1,9 @@
 // Greeting component
 import React from "react";
-import dayPic from "../day.svg";
-import nightPic from "../evening.svg";
+import dayPic from "../assets/day.svg";
+import nightPic from "../assets/evening.svg";
 
-function Greeting() {
+export default function Greeting() {
     const currentTime = new Date().getHours();
     let greetingMsg;
     let greetingImg;
@@ -34,5 +34,3 @@ function Greeting() {
             </h1>
         );
     }
-
-export default Greeting;

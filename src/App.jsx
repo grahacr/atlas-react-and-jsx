@@ -1,8 +1,10 @@
-import Header from "./assets/components/Header";
-import Section from "./assets/components/Section";
+import Header from "./components/Header";
+import Section from "./components/Section";
+import HelpfulResource from "./components/HelpfulResource";
 
 export default function App() {
-  return <div className="app">
+  return (
+  <div className="app">
     <Header />
     <Section title="What is react?">
       <p>React is a component-based library used with Javascript for the purpose of building User Interfaces. It follows the virtual DOM approach which facilitates effecient rendering performance</p>
@@ -16,5 +18,11 @@ export default function App() {
         <li>Fast, effecient rendering</li>
       </ul>
     </Section>
-  </div>;
+    <Section title="Helpful resources">
+      <HelpfulResource link="https://www.youtube.com/watch?v=wIyHSOugGGw&list=WL&index=1" label="Every React component explained" />
+      <HelpfulResource link="https://youtu.be/s2skans2dP4?si=tsBv-DELvU6AieCe" label="React JS explained in 10 minutes" />
+      <HelpfulResource link="https://react.dev/learn" label="React quick start guide" />
+    </Section>
+  </div>
+  );
 }
