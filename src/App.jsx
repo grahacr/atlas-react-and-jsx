@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
 import HelpfulResource from "./components/HelpfulResource";
+import AboutMe from "./components/AboutMe";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <HelpfulResource link="https://youtu.be/s2skans2dP4?si=tsBv-DELvU6AieCe" label="React JS explained in 10 minutes" />
       <HelpfulResource link="https://react.dev/learn" label="React quick start guide" />
     </Section>
+    <AboutMe />
   </div>
   );
 }
