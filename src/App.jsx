@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import HelpfulResource from "./components/HelpfulResource";
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
       <HelpfulResource link="https://react.dev/learn" label="React quick start guide" />
     </Section>
     <AboutMe />
+    <Footer />
   </div>
   );
 }
